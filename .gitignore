@@ -1,0 +1,13 @@
+# Carpeta de compilación 
+Debug/ 
+Release/
+
+#Archivos binarios
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Configuración local
+.settings/
