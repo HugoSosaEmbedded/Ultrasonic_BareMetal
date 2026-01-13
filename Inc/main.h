@@ -51,6 +51,16 @@ extern "C" {
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
+void TIM2_Init_IC(void);
+void GPIO_TIM2_IC(void);
+void USART2_Init(void);
+void GPIO_USART2(void);
+void Swap_Buffer(void);
+void TIM3_PWM_Init(void);
+void GPIO_TIM3_PWM_Init(void);
+void TIM4_Init(void);
+void Add_Sample(uint16_t sample);
+float Average(void);
 
 /* USER CODE BEGIN EFP */
 
